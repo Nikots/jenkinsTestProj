@@ -1,9 +1,0 @@
-2023-12-22 15:40:23 [main] INFO  Utils - [TestNG] Running:
-  /Users/ninakotsar/Library/Caches/JetBrains/IdeaIC2023.1/temp-testng-customsuite.xml
-
-2023-12-22 15:40:28 [main] INFO  BasePage - setUserName
-2023-12-22 15:40:28 [main] INFO  BasePage - setPassword
-2023-12-22 15:41:44 [main] INFO  BasePage - setUserName
-2023-12-22 15:41:44 [main] INFO  BasePage - setPassword
-2023-12-22 15:41:50 [main] INFO  BasePage - setUserName
-2023-12-22 15:41:50 [main] INFO  BasePage - setPassword

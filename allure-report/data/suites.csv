@@ -1,6 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Fri Dec 22 15:41:51 EET 2023","Fri Dec 22 15:41:52 EET 2023","1504","Surefire suite","Surefire test","ua.hillel.cases.api.BookingApiTest","ua.hillel.cases.api.BookingApiTest","checkBookingIdsV2","checkBookingIdsV2",""
-"passed","Fri Dec 22 15:41:42 EET 2023","Fri Dec 22 15:41:45 EET 2023","2929","Surefire suite","Surefire test","ua.hillel.cases.ui.LoginPomTest","ua.hillel.cases.ui.LoginPomTest","loginTestV1","loginTestV1",""
-"unknown","Fri Dec 22 15:41:39 EET 2023","Fri Dec 22 15:41:39 EET 2023","1","Surefire suite","Surefire test","ua.hillel.cases.api.BookingApiTest","ua.hillel.cases.api.BookingApiTest","checkBookingIdsV1","checkBookingIdsV1",""
-"passed","Fri Dec 22 15:41:52 EET 2023","Fri Dec 22 15:42:02 EET 2023","10067","Surefire suite","Surefire test","ua.hillel.cases.api.BookingApiTest","ua.hillel.cases.api.BookingApiTest","checkNewBookingCreation","checkNewBookingCreation",""
-"passed","Fri Dec 22 15:41:47 EET 2023","Fri Dec 22 15:41:50 EET 2023","2903","Surefire suite","Surefire test","ua.hillel.cases.ui.LoginPomTest","ua.hillel.cases.ui.LoginPomTest","loginTestV2","loginTestV2",""
