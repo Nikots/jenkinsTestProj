@@ -15,9 +15,12 @@ public class BaseUiTest {
 
     @BeforeMethod
     public void setup() throws MalformedURLException {
-        URL gridUrl = new URL("http://192.168.64.2:4444/wd/hub"); // Замініть hostname на адресу сервера Selenium Grid
+        String browser = System.getProperty("browser", "firefox");
+        String hostname = System.getProperty("hostname", "http://localhost:4444");
+
+        URL gridUrl = new URL(hostname + "/wd/hub");
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setBrowserName("firefox"); // Можете вибрати firefox, chrome тощо
+        capabilities.setBrowserName(browser);
 
         WebDriver driver = new RemoteWebDriver(gridUrl, capabilities);
 
