@@ -19,7 +19,7 @@ import static org.testng.Assert.assertTrue;
 public class BookingApiTest {
     BookingService bookingService = new BookingService();
 
-    @Test(enabled = false)
+    @Test
     public void checkBookingIdsV1() {
         Response response = bookingService.getBookingIdsList();
 
@@ -31,14 +31,14 @@ public class BookingApiTest {
         assertTrue(responseString.contains("12"));
     }
 
-    @Test//failed
+    @Test
     public void checkBookingIdsV2() {
         BookingIdDTO expectedId1 = new BookingIdDTO(1);
         BookingIdDTO expectedId2 = new BookingIdDTO(12);
         Response response = bookingService.getBookingIdsList();
 
         List<BookingIdDTO> idList = response.then()
-                .statusCode(201)
+                .statusCode(200)
                 .extract()
                 .body().jsonPath().getList("", BookingIdDTO.class);
 
